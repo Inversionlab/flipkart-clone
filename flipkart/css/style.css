@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2874f0;
+    font-family: 'Tinos', serif;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a img {
+    width: 80px;
+    padding: 0 10px 0 180px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 5vh;
+    border-radius: 4px;
+    margin: 0 4px 0 8px;
+    padding: 0 10px;
+}
+
+.search button {
+    margin-left: 15px;
+    background-color: #2874f0;
+    color: white;
+    height: 26px;
+    width: 62px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.search button:hover{
+    font-weight: 600;
+}
+
+nav ul {
+    height: 54px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+nav ul li select{
+    background-color: #2874f0;
+    color: white;
+    width: 60px;
+    border-style: hidden;
+}
+
+nav ul li select:hover{
+    font-weight: bolder;
+}
+
+nav ul li select option{
+    text-decoration: none;
+    color: white;
+    font-family: 'Tinos', serif;
+}
+
+.container{
+    min-height: calc(100vh - 54px - 17vh);
+    background-color: white;
+}
+
+.slider{
+    margin: 10px auto;
+    width: 80vw;
+    overflow: hidden;
+}
+
+.card{
+    max-width: 90vw;
+    margin: 40px auto;
+}
+
+.cards{
+    display: flex;
+    overflow: hidden;
+}
+
+.card h2{
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 23px;
+}
+
+.text-center my-1{
+    font-family: 'Lato', sans-serif;
+}
+
+footer {
+    background-color: #172337;
+    color: white;
+    height: 17vh;
+    font-family: 'Tinos', serif;
+}
+
+.section ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section ul li{
+    padding: 10px 25px;
+}
+
+.section ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.section ul li a:hover {
+    font-weight: bolder;
+}
+
+.contact ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact ul li{
+    padding: 10px 25px;
+}
+
+.contact ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact ul li a:hover {
+    font-weight: bolder;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
